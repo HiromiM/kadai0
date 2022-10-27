@@ -1,0 +1,144 @@
+body{
+    background: white;
+}
+ 
+.box {
+  display:flex; 
+  /* 子要素のタイトルを aboslute 配置するため必要 */
+  max-width: 1500px;
+}
+
+.box .box1{
+  font-size: 21px;
+  position: absolute;
+  right: 0;
+}
+
+.cheese-1 {
+  font-size: 30px;
+  top:50%;
+  left:25%;
+  font-weight: bold;
+  color: white;
+  margin:auto;
+  line-height: 10px;
+}
+
+.cheese-2 {
+  font-size: 25px;
+  color:white;
+  }
+
+.main-img{
+  max-width: 100%;
+  height: auto;
+  }
+
+.main-img p{
+    color:#ffd61a
+    font-size 24px;
+    position:absolute;
+    top: 50%;
+    left: 50%; 
+  }
+
+  .nouen {
+    display:flex; 
+    /* 子要素のタイトルを aboslute 配置するため必要 */
+    font-size: 16px;
+    margin: auto;
+    position: relative;
+  }
+
+  .koushi {
+    display:flex; 
+    /* 子要素のタイトルを aboslute 配置するため必要 */
+    font-size: 16px;
+    margin: auto;
+    position: relative;
+  }
+
+  .tasting {
+    display:flex; 
+    /* 子要素のタイトルを aboslute 配置するため必要 */
+    font-size: 12px;
+    margin: auto;
+    position: relative;
+  }
+
+
+
+
+
+
+.a{
+   color: #ffd61a; 
+}
+
+.b{
+    color:#ffd61a;
+}
+
+.c{
+  display:block;
+  width: 300px;
+  margin: auto;
+  padding: 21px o;
+  background-color: #ffd61a; 
+  color: white;
+  font-size: 18px;
+}
+
+
+P { text-align: center }
+h1 { text-align: center }
+h2 { text-align: center }
+h3 { text-align: center }
+ul { text-align: center }
+
+
+.container {
+  display: flex;
+}
+
+/* .img/about_04.jpg {
+  flex: 1 1 auto;
+}
+
+.img/about_03.jpg {
+  flex: 1 1 auto;
+}
+
+.img/about_02.jpg {
+  flex: 1 1 auto;
+}
+
+.img/about_01.jpg {
+  flex: 1 1 auto;
+} */
+
+/* 
+.map{
+  margin-auto;
+} */
+.map{
+  position:relative; 
+}
+
+.map{
+  width:100%; 
+}
+
+.kosuge1{
+  font-size: 12px;
+  
+}
+
+.kosuge2{
+  font-size: 12px;
+  
+}
+.kosuge3{
+  font-size: 12px;
+  
+}
